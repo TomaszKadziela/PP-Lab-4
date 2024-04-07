@@ -13,12 +13,7 @@ public class Company {
         employees[3] = new Worker("Kamil Kajak", 4500, "Tester Jakości");
         employees[4] = new Worker("Albert Marcel", 6300, "HR");
 
-        System.out.println("Dane dla pracownika o indeksie 3:");
-        System.out.println(employees[3]);
-
-        employees[3].setSalary(70000);
-
-        System.out.println("\nDane dla wszystkich pracowników:");
+        System.out.println("Dane dla wszystkich pracowników:");
         for (Employee employee : employees) {
             System.out.println(employee);
         }
