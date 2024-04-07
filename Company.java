@@ -19,7 +19,7 @@ public class Company {
             }
         }
         ((Manager) employees[0]).setNumberOfSubordinates(nonManagerCount);
-        employees[0].setSalary(75000);
+        employees[0].setSalary(15000);
 
 
         System.out.println("Dane dla wszystkich pracowników:");
