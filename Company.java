@@ -7,11 +7,11 @@ public class Company {
         Employee[] employees = new Employee[5];
 
 
-        employees[0] = new Employee("Marek Kowalski", 3500);
-        employees[1] = new Employee("Sylwia Kopacz", 7000);
+        employees[0] = new Employee("Marek Kowalski", 3500, 0);
+        employees[1] = new Employee("Sylwia Kopacz", 7000, "Marketing");
         employees[2] = new Employee("Tomasz Kądziela", 4000);
-        employees[3] = new Employee("Kamil Kajak", 4500);
-        employees[4] = new Employee("Albert Marcel", 6300);
+        employees[3] = new Employee("Kamil Kajak", 4500, "Tester Jakości");
+        employees[4] = new Employee("Albert Marcel", 6300, "HR");
 
         System.out.println("Dane dla pracownika o indeksie 3:");
         System.out.println(employees[3]);
